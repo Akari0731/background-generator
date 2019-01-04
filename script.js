@@ -73,4 +73,4 @@ function opacityConvertTable() {
 
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
-transparency.addEventListener("input", setGradient);
+opacity.addEventListener("input", setGradient);
