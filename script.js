@@ -71,7 +71,6 @@ function opacityConvertTable() {
 	return rgbaTable;
 }
 
-
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
 opacity.addEventListener("input", setGradient);
