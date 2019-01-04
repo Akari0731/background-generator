@@ -99,3 +99,14 @@ ul {
   cursor: pointer;
 }
 
+.propertycontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listcontainer {
+  width: 50%;
+}
+
