@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Background</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body id="gradient">
+	<h1>Background Generater</h1>
+	<h2>Choose color</h2>
+	<input class = "color1" type="color" name="color1" value="#00ff00">
+	<input class = "color2" type="color" name="color2" value="#00ffff">
+	<h2>Choose Transparency</h2>
+	<div class="slidecontainer">
+	  <p>&nbsp;&nbsp;&nbsp;&nbsp;0%</p>
+	  <input type="range" min="1" max="100" step="1" value="50" class="slider" id="range">
+	  <p>&nbsp;100%</p>
+	</div>
+	<h2>Current CSS Background Property</h2>
+	<ul>
+		<li class="rgba">RGBA : linear-gradient(to right, rgba(0, 255, 0, 0.5), rgba(0, 255, 255, 0.5))</li>
+		<li class="hex">HEX : linear-gradient(to right, "#00FF0080", "#00FFFF80")</li>
+	</ul>
+	<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
