@@ -11,12 +11,12 @@ function setGradient() {
 	var color1Code = "rgba(" + hex2rgb(color1.value) + ", " + range + ")";
 	var color2Code = "rgba(" + hex2rgb(color2.value) + ", " + range + ")";
 	body.style.background = 
-	"RGBA: linear-gradient(to right, "
+	"linear-gradient(to right, "
 	+ color1Code
 	+ ", "
 	+ color2Code
 	+ ")";
-	rgba.textContent = body.style.background + ";";
+	rgba.textContent = "RGBA :" + body.style.background + ";";
 
 	hex.textContent = 
 	"HEX : linear-gradient(to right, "
@@ -25,7 +25,7 @@ function setGradient() {
 	+ ", "
 	+ color2.value
 	+ convertOpacity(range)
-	+ ")";
+	+ ");";
 }
 
 //rgb to hex(6digit)
