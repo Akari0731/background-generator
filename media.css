@@ -1,32 +1,29 @@
 /*Medium devices (Tablets, Ipads (portrait))*/
-@media screen and (max-width: 1024px) and (min-width: 767px){
+@media screen and (max-width: 1024px) and (min-width: 769px){
   h1 {
     width: 90%;
-    margin: 30px auto;
-    letter-spacing: 0.05em;
-    font-size: 3em;
-    font-weight: 300;
+    margin: 50px auto 30px auto;
+    letter-spacing: 0.08em;
+    font-size: 2em;
+    font-weight: 350;
   }
 
   h2 {
     margin: 20px auto;
-    letter-spacing: 0;
-    font-size: 2em;
-    font-weight: 300;
+    letter-spacing: 0.08em;
+    font-size: 1.8em;
+    font-weight: 350;
   }
   
   ul{
-    width: 80%;
+    width: 70%;
+    padding-left: 40px;
+    margin: 0 auto;
     font-size: 1.2em;
-    padding-left: 0;
-  }
-
-  input.color1, input.color2 {
-    margin-bottom: 10px;
   }
 
   .slidecontainer {
-    margin: 0 auto;
+    margin-bottom: 40px;
   }
 
   .slider {
