@@ -9,7 +9,6 @@ body {
 }
 
 h1 {
-  display: block;
   width: 80%;
   margin: 50px auto;
   padding-bottom: 10px;
@@ -18,16 +17,13 @@ h1 {
 }
 
 h2 {
-  display: block;
-  margin-top: 50px;
   text-align: center;
 }
 
 input {
   height: 60px;
   width: 60px;
-  margin: 0 10px; 
-  padding: 0;
+  margin: 0 10px;
   border: 3px solid white;
   border-radius: 100%;
   outline: none;
@@ -44,13 +40,15 @@ input::-webkit-color-swatch {
 }
 
 ul {
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
+  padding-left: 20%;
   text-align: left;
   list-style-position: inside;
   line-height: 40px;
   font-size: 1.2em;
   letter-spacing: 0.01em;
-  text-transform: none;	
+  text-transform: none;
 }
 
 .slidecontainer {
@@ -97,15 +95,3 @@ ul {
   background: #808080;
   cursor: pointer;
 }
-
-.propertycontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.listcontainer {
-  width: 50%;
-}
-
