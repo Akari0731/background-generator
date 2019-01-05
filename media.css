@@ -37,6 +37,7 @@
 /*Small devices (Low Resolution Tablets, Mobiles)*/
 @media screen and (max-width: 768px) {
   h1 {
+    margin: 20px auto;
     border-bottom: 2px solid rgba(0,0,0,.5);
     letter-spacing: 0;
     font-size: 1.2em;
