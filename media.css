@@ -74,8 +74,13 @@
     width: 50%;
   }
 
+  .slidecontainer {
+    height: 50px;
+    margin-bottom: 30px;
+  }
+
   .slidecontainer p {
     letter-spacing: 0.1em;
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
 }
