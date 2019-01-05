@@ -73,4 +73,9 @@
   .slider {
     width: 50%;
   }
+
+  .slidecontainer p {
+    letter-spacing: 0.1em;
+    font-size: 0.6em;
+  }
 }
