@@ -5,12 +5,14 @@
     margin: 30px auto;
     letter-spacing: 0.05em;
     font-size: 3em;
+    font-weight: 300;
   }
 
   h2 {
     margin: 20px auto;
     letter-spacing: 0;
     font-size: 2em;
+    font-weight: 300;
   }
   
   ul{
@@ -35,19 +37,23 @@
 /*Small devices (Low Resolution Tablets, Mobiles)*/
 @media screen and (max-width: 768px) {
   h1 {
+    border-bottom: 2px solid rgba(0,0,0,.5);
     letter-spacing: 0;
     font-size: 1.2em;
+    font-weight: 300;
   }
 
   h2 {
     margin-top: 0;
     letter-spacing: 0;
     font-size: 1em;
+    font-weight: 300;
   }
   
   ul{
     width: 90%;
-    padding-left: 0;
+    padding-left: 20px;
+    margin: 0 auto;
     font-size: 0.8em;
   }
 
