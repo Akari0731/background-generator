@@ -58,18 +58,6 @@
     font-size: 0.8em;
   }
 
-  input.color1 {
-    margin-bottom: 30px;
-    background-color: #00ff0080;
-    text-align: center;
-  } 
-
-  input.color2 {
-    margin-bottom: 30px;
-    background-color: #00ffff80;
-    text-align: center;
-  }
-
   .slider {
     width: 50%;
     height: 10px;

@@ -40,6 +40,18 @@ input::-webkit-color-swatch {
   border-radius: 100%;
 }
 
+input.color1 {
+    margin-bottom: 30px;
+    background-color: #00ff0080;
+    text-align: center;
+  } 
+
+input.color2 {
+  margin-bottom: 30px;
+  background-color: #00ffff80;
+  text-align: center;
+}
+
 ul {
   width: 70%;
   margin: 20px auto;
